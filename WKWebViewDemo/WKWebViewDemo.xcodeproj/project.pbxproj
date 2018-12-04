@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		393251E162AC2163EE71925B /* Pods_WKWebViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091925742A2B0C86F75A3242 /* Pods_WKWebViewDemo.framework */; };
+		A04D9CAF21B6302C00BB9FB1 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = A04D9CAE21B6302C00BB9FB1 /* test.html */; };
 		D7BD74451EEE758C00EB441E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BD74441EEE758C00EB441E /* main.m */; };
 		D7BD74481EEE758C00EB441E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BD74471EEE758C00EB441E /* AppDelegate.m */; };
 		D7BD744B1EEE758C00EB441E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BD744A1EEE758C00EB441E /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		D7BD74531EEE758C00EB441E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BD74511EEE758C00EB441E /* LaunchScreen.storyboard */; };
 		D7BD745E1EEE758C00EB441E /* WKWebViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BD745D1EEE758C00EB441E /* WKWebViewDemoTests.m */; };
 		D7BD74691EEE758C00EB441E /* WKWebViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BD74681EEE758C00EB441E /* WKWebViewDemoUITests.m */; };
-		D7BD74781EEE76EE00EB441E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = D7BD74771EEE76EE00EB441E /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,7 @@
 		013FE79192981BDCD7FFFC01 /* Pods-WKWebViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKWebViewDemo/Pods-WKWebViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		091925742A2B0C86F75A3242 /* Pods_WKWebViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKWebViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8A2C944196F4D702985D32 /* Pods-WKWebViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKWebViewDemo/Pods-WKWebViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A04D9CAE21B6302C00BB9FB1 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test.html; path = ../../../Desktop/test.html; sourceTree = "<group>"; };
 		D7BD74401EEE758C00EB441E /* WKWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BD74441EEE758C00EB441E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7BD74461EEE758C00EB441E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		D7BD74681EEE758C00EB441E /* WKWebViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewDemoUITests.m; sourceTree = "<group>"; };
 		D7BD746A1EEE758C00EB441E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7BD74761EEE768500EB441E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		D7BD74771EEE76EE00EB441E /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 		D7BD74421EEE758C00EB441E /* WKWebViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D7BD74771EEE76EE00EB441E /* index.html */,
+				A04D9CAE21B6302C00BB9FB1 /* test.html */,
 				D7BD74461EEE758C00EB441E /* AppDelegate.h */,
 				D7BD74471EEE758C00EB441E /* AppDelegate.m */,
 				D7BD74491EEE758C00EB441E /* ViewController.h */,
@@ -181,7 +181,6 @@
 				D7BD743D1EEE758C00EB441E /* Frameworks */,
 				D7BD743E1EEE758C00EB441E /* Resources */,
 				90E5B9D9CE2125E3BAA79C33 /* [CP] Embed Pods Frameworks */,
-				A035A31D57CD8B809583DB76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +233,7 @@
 		D7BD74381EEE758C00EB441E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "周伟";
 				TargetAttributes = {
 					D7BD743F1EEE758C00EB441E = {
@@ -281,8 +280,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04D9CAF21B6302C00BB9FB1 /* test.html in Resources */,
 				D7BD74531EEE758C00EB441E /* LaunchScreen.storyboard in Resources */,
-				D7BD74781EEE76EE00EB441E /* index.html in Resources */,
 				D7BD74501EEE758C00EB441E /* Assets.xcassets in Resources */,
 				D7BD744E1EEE758C00EB441E /* Main.storyboard in Resources */,
 			);
@@ -311,28 +310,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WKWebViewDemo/Pods-WKWebViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKWebViewDemo/Pods-WKWebViewDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A035A31D57CD8B809583DB76 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKWebViewDemo/Pods-WKWebViewDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WKWebViewDemo/Pods-WKWebViewDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D7BE3EA2F91548BDBBCDEE8E /* [CP] Check Pods Manifest.lock */ = {
@@ -341,13 +334,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKWebViewDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -424,15 +420,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -472,15 +476,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
